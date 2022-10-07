@@ -1,0 +1,10 @@
+
+.main-para {
+    font-size: 8.5em;
+    line-height: 15.5em;
+    
+}
+#active {
+    background-color: yellow;
+    color: steelblue;
+}
