@@ -5,15 +5,15 @@
     
 }
 #active {
-    background-color: rgb(250, 227, 24);
+    background-color: rgb(20, 47, 168);
     color: steelblue;
 }
 a {
     font-size: 1.5em;
 }
 nav, footer {
-    background-color: steelblue;
-    color: white;
+    background-color: rgb(235, 242, 247);
+    color: rgb(86, 247, 140);
     padding: 10px;
 }
 img {
@@ -29,4 +29,4 @@ main p {
 a:hover {
     background-color: white;
     color: steelblue;
-    
+}
