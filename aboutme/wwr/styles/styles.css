@@ -4,7 +4,18 @@
     line-height: 15.5em;
     
 }
+
 #active {
     background-color: yellow;
     color: steelblue;
+}
+img {
+    width: 80%;
+}
+p {
+    width: 80%;
+}
+
+a {
+    font-size: 1.5em;
 }
