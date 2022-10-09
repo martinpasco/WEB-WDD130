@@ -12,14 +12,10 @@
 a {
     font-size: 1.5em;
 }
-/* * {
-    border: 2px solid blue;
-}*/
-/* h1 {
-    text-align: center;
-} */
 nav, footer {
-    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
 }
 img {
     width: 30%;
@@ -31,3 +27,6 @@ main p {
     margin: 50px auto;
     text-align: center;
 } 
+a:hover {
+    background-color: white;
+    color: steelblue;
