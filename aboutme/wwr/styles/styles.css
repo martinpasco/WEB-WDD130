@@ -9,13 +9,6 @@
     background-color: rgb(250, 227, 24);
     color: steelblue;
 }
-/* img {
-    width: 30%;
-} */
-p {
-    width: 80%;
-}
-
 a {
     font-size: 1.5em;
 }
@@ -29,7 +22,7 @@ nav, footer {
     text-align: center;
 }
 img {
-    width: 80%;
+    width: 30%;
     display: block;
     margin: 0 auto;
 }
