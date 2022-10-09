@@ -4,7 +4,6 @@
     line-height: 15.5em;
     
 }
-
 #active {
     background-color: rgb(250, 227, 24);
     color: steelblue;
@@ -30,3 +29,4 @@ main p {
 a:hover {
     background-color: white;
     color: steelblue;
+}
