@@ -9,13 +9,32 @@
     background-color: rgb(250, 227, 24);
     color: steelblue;
 }
-img {
-    width: 80%;
-}
+/* img {
+    width: 30%;
+} */
 p {
     width: 80%;
 }
 
 a {
     font-size: 1.5em;
+}
+/* * {
+    border: 2px solid blue;
+}*/
+/* h1 {
+    text-align: center;
+} */
+nav, footer {
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
 }
