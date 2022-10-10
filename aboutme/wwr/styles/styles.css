@@ -2,6 +2,9 @@
 #background {
     height: 725px;
 }
+logo_link{
+
+}
 body {
     background-color: #fcfbfb; 
 }
@@ -15,11 +18,16 @@ header {
     text-align: center;
     color: white;
 }
+msg a:link{
+    background-color:#c6b4a4;
+    color: #6f7364;
+
+}
 footer p {
     font-size: 1.2em;
     
 } 
-footer p a:hover a:link {
+footer p a:link {
     text-decoration: underline;
     color: #c6b4a4;
 }
@@ -29,4 +37,12 @@ footer p a:hover a:link {
 footer {
     background-color: #6f7364;  
     color: #c6b4a4;
+    
 }
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+    text-decoration: underline;
+}   
+.icon {
+    width: 80px;
