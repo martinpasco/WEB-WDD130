@@ -2,47 +2,55 @@
 #background {
     height: 725px;
 }
-logo_link{
-
+h1, h4 {
+    text-align: center;
 }
 body {
     background-color: #fcfbfb; 
 }
 header {
     background-color: #6f7364;
-    height: 308px;
-    color: white;
+
 }
 .msg {
     background-color: #6f7364;
     text-align: center;
     color: white;
 }
-msg a:link{
+msg a:link  {
     background-color:#c6b4a4;
     color: #6f7364;
-
 }
-footer p {
+footer p a {
     font-size: 1.2em;
-    
-} 
-footer p a:link {
-    text-decoration: underline;
     color: #c6b4a4;
-}
-.home-grid {
+} 
+.home-grid  {
     text-align: center;
 }
-footer {
-    background-color: #6f7364;  
-    color: #c6b4a4;
-    
+.book {
+    text-align: center;
 }
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-    text-decoration: underline;
-}   
-.icon {
+div {
+    text-align: center; 
+}
+#hero-msg a{
+    color: black;
+}
+.msg .join{
+    background-color: #c6b4a4;
+    color: black;
+}
+.logo{
     width: 80px;
+}
+#hero-img{
+    width: 100%;
+}
+footer  {
+    background-color: #6f7364;
+    color: #c6b4a4;
+    text-align: left;
+}
+
+    
