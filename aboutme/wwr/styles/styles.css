@@ -1,32 +1,32 @@
 
-.main-para {
-    font-size: 8.5em;
-    line-height: 15.5em;
-    
+#background {
+    height: 725px;
 }
-#active {
-    background-color: rgb(37, 168, 20);
-    color: steelblue;
+body {
+    background-color: #fcfbfb; 
 }
-a {
-    font-size: 1.5em;
+header {
+    background-color: #6f7364;
+    height: 308px;
+    color: white;
 }
-nav, footer {
-    background-color: rgb(235, 242, 247);
-    color: rgb(86, 247, 140);
-    padding: 10px;
-}
-img {
-    width: 30%;
-    display: block;
-    margin: 0 auto;
-}
-main p {
-    width: 50%;
-    margin: 50px auto;
+.msg {
+    background-color: #6f7364;
     text-align: center;
+    color: white;
+}
+footer p {
+    font-size: 1.2em;
+    
 } 
-a:hover {
-    background-color: white;
-    color: steelblue;
+footer p a:hover a:link {
+    text-decoration: underline;
+    color: #c6b4a4;
+}
+.home-grid {
+    text-align: center;
+}
+footer {
+    background-color: #6f7364;  
+    color: #c6b4a4;
 }
