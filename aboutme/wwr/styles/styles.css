@@ -24,6 +24,7 @@ msg a:link  {
 footer p a {
     font-size: 1.2em;
     color: #c6b4a4;
+    text-align: left;
 } 
 .home-grid  {
     text-align: center;
@@ -50,7 +51,6 @@ div {
 footer  {
     background-color: #6f7364;
     color: #c6b4a4;
-    text-align: left;
 }
    
     
