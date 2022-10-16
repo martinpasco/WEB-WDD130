@@ -98,3 +98,6 @@ div a{
 main section img {
     box-sizing: border-box;
 }
+#content{
+    max-width: 1600px;
+}
