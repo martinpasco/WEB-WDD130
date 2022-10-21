@@ -147,7 +147,7 @@
   display: grid;
   grid-column: repeat(3, 100px) ;
   grid-row: repeat(5, 80px);
-  float: left;
+  
 }
 .red5 { 
   width: 100%; 
@@ -172,7 +172,7 @@
   background-color: gold; 
   grid-column: 1/4;
   grid-row: 2/5;
-  float: right;
+  /*float: right;*/
 } 
 
 .blue5 {
