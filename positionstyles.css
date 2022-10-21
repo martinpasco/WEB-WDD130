@@ -170,6 +170,7 @@
   background-color: gold; 
   grid-column: 1/4;
   grid-row: 2/5;
+  float: text;
 } 
 
 .blue5 {
