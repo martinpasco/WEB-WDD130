@@ -173,7 +173,6 @@
   background-color: gold; 
   grid-column: 1/4;
   grid-row: 2/5;
-  text-align: right;
   float: text;
   
 } 
