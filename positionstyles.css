@@ -162,8 +162,8 @@
   background-color: green; 
   grid-column: 1/2;
   grid-row: 2/4;
-  float: left;
-  /*z-index: 1;*/
+  /*float: left;
+  z-index: 1;*/
 }
 
 .yellow5 {
