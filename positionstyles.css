@@ -162,6 +162,7 @@
   grid-column: 1/2;
   grid-row: 2/3;
   float: left;
+  z-index: 1;
 }
 
 .yellow5 {
@@ -170,7 +171,7 @@
   background-color: gold; 
   grid-column: 1/4;
   grid-row: 2/5;
-  float: text;
+  text-align: left;
 } 
 
 .blue5 {
