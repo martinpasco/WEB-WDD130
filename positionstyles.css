@@ -165,6 +165,7 @@
   position: relative;
   float: left;
   top: 0%;
+  left: 0;
 
 }
 
@@ -174,6 +175,7 @@
   background-color: gold; 
   grid-column: 1/4;
   grid-row: 2/5;
+  text-align: left;
   
 } 
 
