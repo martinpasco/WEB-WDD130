@@ -1,14 +1,14 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #77BFA3   ;
+  --secondary-color: #98C9A3 ;
+  --accent1-color: #BFD8BD;
+  --accent2-color: #F9DF74;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
