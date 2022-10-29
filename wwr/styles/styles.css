@@ -105,18 +105,19 @@ div a{
 .rivers-card {
     margin: 200px 0;
     grid-column: 2/4;
-    grid-column: 2/3;
+    grid-row: 2/3;
 }   
 
-camping-card {
+.camping-card {
     margin: 200px 0;
     grid-column: 5/7;
-    grid-column: 2/3;
+    grid-row: 2/3;
 }   
+
 .rapids-card {
     margin: 200px 0;
     grid-column: 8/10;
-    grid-column: 2/3;
+    grid-row: 2/3;
 }   
 .card-img  {
     border: 10px solid #d9c2a3;
@@ -139,10 +140,15 @@ header {
     display: grid;
     grid-template-columns: 150px, auto;
 } 
+/* --------*/
 #content{
     max-width: 1600px;
-    
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
 }  
+/*/*/
 #logo_link {
     padding-top: 5px;
     justify-self: center;
