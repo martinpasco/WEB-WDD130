@@ -89,6 +89,7 @@ nav a{
     color: white;
     text-decoration: none;
     padding: 35px; 
+    text-align: center;
 } 
 .icon{
     height: 80px;
@@ -143,10 +144,9 @@ header {
 /* --------*/
 #content{
     max-width: 1600px;
-    justify-content: center;
+    justify-content: left;
     align-content: center;
-    justify-content: center;
-    align-content: center;
+    justify-items: center;
 }  
 /*/*/
 #logo_link {
