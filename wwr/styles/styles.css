@@ -85,6 +85,7 @@ nav a{
     text-decoration: none;
     padding: 35px; 
     text-align: center;
+    z-index: 1;
 } 
 .icon{
     height: 80px;
@@ -168,7 +169,7 @@ nav {
 #hero-box {
     grid-column: 1/4;
     grid-row: 2/3;
-    /*z-index: 1;  */
+    
 }
 #hero-msg {
     grid-column: 2/3;
