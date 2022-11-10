@@ -47,7 +47,7 @@ footer p a {
     text-align: center;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat (10, 1fr);
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
 }
 .book, .join {
     background-color: #9d8a7a;
@@ -201,7 +201,7 @@ footer  {
 }
 /*--  --*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid, {
+    #hero, .home-grid {
         display: block;
         height: auto;
     }
@@ -251,7 +251,7 @@ footer  {
     text-align: center;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat (10, 1fr);
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
 }   
 .card-img1 {
     box-shadow: 5px 5px 10px #6f7364;
