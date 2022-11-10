@@ -282,7 +282,7 @@ footer  {
     height: 725px;
     background-color: white;
     grid-column: 1/11;
-    grid-row: 4/11;
+    grid-row: 4/10;
 }
 .mountains1 {
     width: 100%;
@@ -294,10 +294,7 @@ footer  {
     background-color: white;
     text-align: center;
     color: #6f7364;
-    /*line-height: 1.5em;
-    padding: 15px 30px;
-    /*padding: 35px;*/
-    grid-column: 4/6;
+    grid-column: 3/4;
     grid-row: 6/10;
-    /*box-shadow: 5px 5px 10px #6f7364;*/
+    
 }
