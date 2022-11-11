@@ -43,11 +43,6 @@ nav a{
     text-decoration: none;
     padding: 5px;
     text-align: right;
-    /*z-index: 1;*/
-    /*grid-column: 2/3;
-    grid-row: 1/2;
-    justify-content: center;*/
-    
     
 }
 nav {
@@ -181,8 +176,7 @@ main section img {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
-    /*grid-column: 1/4;
-    grid-row: 1/4;*/
+    
 }
 #hero-box {
     grid-column: 1/4;
@@ -210,7 +204,7 @@ footer  {
 }
 /*--  --*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid /**/ river-grid{
+    #hero, .home-grid /**/ .river-grid{
         display: block;
         height: auto;
     }
@@ -234,16 +228,14 @@ footer  {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card,/**/
-    rivers-card1, .camping-card1, .rapids-card1 { 
+    .rivers-card, .camping-card, .rapids-card /**/ { 
         margin: 50px auto;
         width: 60%;
     }
-    #background /**/ background1{
+    #background /**/ {
         display: none;
     }
-    .mountains, .msg. /**/
-    .mountains1, .msg1 {
+    .mountains, .msg. /**/ {
         width: 80%;
         display: block;
         margin: 0 auto;
