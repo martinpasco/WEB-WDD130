@@ -10,10 +10,10 @@ header {
     background-color: #6f7364;
     display: grid;
     grid-template-columns: 150px auto;
-    
 } 
 #content{
     max-width: 1600px;
+    height: 100px;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -21,32 +21,40 @@ header {
     grid-row: 1/2;
 }  
 #logo_link {
-    padding-top: 5px;
+    display: grid;
+    padding-bottom: 5px;
     justify-self: center;
-    align-self: center;  
-    
+    align-self: center; 
+    grid-column: 1/2;
     
 }
 .logo{
     width: 100px;
-    display: grid;  
-    grid-column: 1/2;
+    grid-column-start: 1/2;
     grid-row: 1/2;
+    place-content: center;
+    /*justify-self: center;
+    align-self: center;*/
+    justify-content: center;
+    
 }
+
 nav a{
     color: white;
     text-decoration: none;
-    padding: 35px; 
-    text-align: center;
+    padding: -35px;
+    text-align: right;
     /*z-index: 1;*/
-    grid-column: 2/3;
+    /*grid-column: 2/3;
     grid-row: 1/2;
+    justify-content: center;*/
+    
     
 }
 nav {
     display: flex;
     justify-content: space-around;
-    grid-column: 3/4;
+     
 }
  
 h2 {
@@ -89,7 +97,7 @@ footer p a {
     text-align: center;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 .book, .join {
     background-color: #9d8a7a;
@@ -186,15 +194,6 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-/*.card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}*/
 footer  {
     background-color: #6f7364;
     color: #c6b4a4;
@@ -204,11 +203,11 @@ footer  {
     justify-content: space-around;
     align-items: center;
     grid-column: 1/2;
-    grid-row: 13/14;
+    grid-row: 1/2;
 }
 /*--  --*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid /**/ river-grid{
         display: block;
         height: auto;
     }
@@ -232,14 +231,16 @@ footer  {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card,/**/
+    rivers-card1, .camping-card1, .rapids-card1 { 
         margin: 50px auto;
         width: 60%;
     }
-    #background {
+    #background /**/ background1{
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg. /**/
+    .mountains1, .msg1 {
         width: 80%;
         display: block;
         margin: 0 auto;
