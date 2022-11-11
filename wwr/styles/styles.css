@@ -13,7 +13,6 @@ header {
 } 
 #content{
     max-width: 1600px;
-    height: 100px;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -42,7 +41,7 @@ header {
 nav a{
     color: white;
     text-decoration: none;
-    padding: -35px;
+    padding: 5px;
     text-align: right;
     /*z-index: 1;*/
     /*grid-column: 2/3;
@@ -98,6 +97,7 @@ footer p a {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
 }
 .book, .join {
     background-color: #9d8a7a;
@@ -165,6 +165,7 @@ div a{
     width: 100%;
     
 }
+
 main section img {
     box-sizing: border-box;
 }
