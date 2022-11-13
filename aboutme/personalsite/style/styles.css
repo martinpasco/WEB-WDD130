@@ -56,25 +56,27 @@ div .position a {
     grid-column: 2/3;
     grid-row: 2/3; 
     z-index: 1;
+    
 }
 #hero-img{
     width: 100%; 
 }
 #hero-msg a{
     color: white;
+    font-size: 1em;
 }
 .home-title{
     font-family: 'Lato', 'Bradley Hand', sans-serif;
-    font-size: 2em;
-    color: white;
+    font-size: 4em;
+    color: #284b63;
     margin-top: 0px;
     grid-column: 2/4;
     grid-row: 1/2;
 }
 h1, h4 {
     text-align: center;
-    color: white;
-    
+    color: #284b63;
+        
 }
 .book  {
     background-color: #BFD8BD;
