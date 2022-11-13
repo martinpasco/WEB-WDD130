@@ -54,7 +54,7 @@ div .position a {
 }
 #hero-msg {
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 2/3;
     
     z-index: 1;
 }
@@ -88,7 +88,7 @@ div .button-box{
     margin-top: 50px; 
 }
 
-.msg {
+/*.msg {
     background-color: #6f7364;
     text-align: center;
     color: white;
@@ -97,7 +97,7 @@ div .button-box{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
-}
+}*/
 
 
 footer  {
@@ -137,5 +137,9 @@ footer  {
     }
     #hero-msg h4 {
         display: none;
+    }
+
+    footer {
+        margin-top: 25px;
     }
 }
