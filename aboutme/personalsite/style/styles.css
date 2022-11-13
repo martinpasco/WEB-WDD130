@@ -154,7 +154,7 @@ footer  {
 }
 
 @media(max-width:700px) {
-    header, #middle{
+    header, #middle, {
         flex-direction: column;
     }
     nav{
@@ -179,7 +179,10 @@ footer  {
     #hero-msg h4 {
         display: none;
     }
-    .passport, .tickets, .cusco, .kuelap, .Internationals1, .Internationals2, .Internationals3, .Internationals4  {
+    #middle{
+        flex-direction: column;
+    }
+    .passport, .tickets, .cusco, .kuelap, .Internationals1, .Internationals2,             .Internationals3, .Internationals4  {
         margin: 50px auto;
         width: 60%;
     }
