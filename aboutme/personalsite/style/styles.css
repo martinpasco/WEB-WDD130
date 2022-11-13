@@ -126,22 +126,22 @@ div .button-box{
 .Internationals1 {
     margin: 80px 0;
     grid-column: 2/3;
-    grid-row: 5/7;
+    grid-row: 4/6;
 }
 .Internationals2 {
     margin: 80px 0;
     grid-column: 4/5;
-    grid-row: 5/7;
+    grid-row: 4/6;
 }
 .Internationals3 {
     margin: 80px 0;
     grid-column: 6/7;
-    grid-row: 5/7;
+    grid-row: 4/6;
 }
 .Internationals4 {
     margin: 80px 0;
     grid-column: 8/9;
-    grid-row: 5/7;
+    grid-row: 4/6;
 }
 footer  {
     background-color: #284b63;
