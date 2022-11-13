@@ -95,7 +95,7 @@ div .button-box{
     display: grid;
     grid-template-columns: repeat (9 1fr);
     grid-template-rows:  repeat (6 1fr);
-    margin-top: -5px; 
+    margin-top: -70px; 
     gap: 10px;
 }
 .img{
