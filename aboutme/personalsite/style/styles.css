@@ -26,7 +26,7 @@ header {
     align-items: center;
 }
 .logo img {
-    height: 50px;
+    height: 70px;
     margin-right: 10px;  
 }
 nav a{
@@ -54,8 +54,7 @@ div .position a {
 }
 #hero-msg {
     grid-column: 2/3;
-    grid-row: 2/3;
-    
+    grid-row: 2/3; 
     z-index: 1;
 }
 #hero-img{
