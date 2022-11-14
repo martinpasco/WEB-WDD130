@@ -145,6 +145,24 @@ div .button-box{
     grid-column: 8/9;
     grid-row: 4/6;
 }
+.local {
+    margin: 80px 0;
+    grid-column: 2/6;
+    grid-row: 4/5;
+}
+.text {
+    background-color: #5e654d;
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    /*padding: 15px 30px;*/
+    grid-column: 6/9;
+    grid-row: 4/5;
+    /*box-shadow: 5px 5px 10px #6f7364;*/
+}
+.text p{
+    
+}
 footer  {
     background-color: #284b63;
     color: white;
@@ -156,7 +174,7 @@ footer  {
 }
 
 @media(max-width:700px) {
-    header {
+    header, {
         width: 100%;
         flex-direction: column;
     }
