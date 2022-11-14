@@ -148,19 +148,27 @@ div .button-box{
 .local {
     margin: 80px 0;
     grid-column: 2/6;
-    grid-row: 4/5;
+    grid-row: 4/6;
 }
-.text {
-    background-color: #5e654d;
+/*.text {
+    /*background-color: #5e654d;
     text-align: center;
     color: white;
     line-height: 1.5em;
-    /*padding: 15px 30px;*/
+    /*padding: 15px 30px;
     grid-column: 6/9;
     grid-row: 4/5;
-    /*box-shadow: 5px 5px 10px #6f7364;*/
-}
-.text p{
+    /*box-shadow: 5px 5px 10px #6f7364;
+}*/
+.text {
+    text-align: center;
+    color: #0a0101;
+    grid-column: 6/9;
+    grid-row:  4/6; 
+    justify-self: center;
+    align-self: center;
+    padding: 10px 20px 20px 20px;
+    justify-content: center;
     
 }
 footer  {
@@ -174,7 +182,7 @@ footer  {
 }
 
 @media(max-width:700px) {
-    header, {
+    header {
         width: 100%;
         flex-direction: column;
     }

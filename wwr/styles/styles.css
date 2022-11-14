@@ -151,7 +151,7 @@ div a{
     padding: 15px 30px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    justify-content: center;
 }
 .card-img  {
     border: 5px solid #d9c2a3;/*-----------------*/
