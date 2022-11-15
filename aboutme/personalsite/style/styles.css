@@ -21,7 +21,6 @@ header {
     align-items: center;
     padding: 10px;      
 }
-
 .logo {
     display:flex;
     align-items: center;
@@ -40,13 +39,11 @@ nav a{
 div .position a {
     text-align: center; 
 }
-
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows:  1fr 1fr  1fr;
-    margin-top: -1px; 
-    
+    margin-top: -1px;    
 }
 #hero-box {
     grid-column: 1/4;
@@ -56,11 +53,11 @@ div .position a {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 2/3; 
-    z-index: 1;
-    
+    z-index: 1;    
 }
 #hero-img{
-    width: 100%; 
+    width: 100%;
+    border-radius: 1em; 
 }
 #hero-msg a{
     color: white;
@@ -76,8 +73,7 @@ div .position a {
 }
 h1, h4 {
     text-align: center;
-    color: #284b63;
-        
+    color: #284b63;        
 }
 .book  {
     background-color: #BFD8BD;
@@ -89,7 +85,6 @@ div .button-box{
     text-align: center;
     margin-top: 50px; 
 }
-
 #middle {
     text-align: center;
     margin-top: 50px;
@@ -98,13 +93,13 @@ div .button-box{
     grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
     margin-top: -70px; 
     grid-gap: 10px;
-    padding: 0 20px 10px;
+    padding: 0 20px 10px 10px;
 }
 .img{
     width: 250px;
     height: 200px;    
+    border-radius: 1em;
 }
-
 .passport {
     margin: 80px 0;
     grid-column: 2/3;
@@ -151,16 +146,6 @@ div .button-box{
     grid-row: 4/6;
     margin-top: -50px;
 }
-/*.text {
-    /*background-color: #5e654d;
-    text-align: center;
-    color: white;
-    line-height: 1.5em;
-    /*padding: 15px 30px;
-    grid-column: 6/9;
-    grid-row: 4/5;
-    /*box-shadow: 5px 5px 10px #6f7364;
-}*/
 .text {
     text-align: center;
     color: #0a0101;
@@ -169,7 +154,7 @@ div .button-box{
     justify-self: center;
     align-self: center;
     padding: 10px 20px 20px 20px;
-    justify-content: center;
+    justify-content: stretch;
     margin-top: -50px;    
 }
 footer  {
