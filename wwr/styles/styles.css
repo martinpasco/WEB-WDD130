@@ -41,6 +41,7 @@ nav a{
     text-decoration: none;
     padding: 5px;
     text-align: right;
+    /*background-color: aquamarine;*/
     
 }
 nav {
@@ -195,7 +196,7 @@ footer  {
     background-color: #6f7364;
     color: #c6b4a4;
     padding: 25px 50px;
-    margin-top: 200px; 
+    margin-top: 0px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
