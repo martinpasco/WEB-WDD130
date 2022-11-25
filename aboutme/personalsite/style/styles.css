@@ -212,3 +212,39 @@ footer  {
         margin-top: 25px;
     }
 }
+/* international */  
+#article {
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+    margin-top: -70px; 
+    grid-gap: 10px;
+    padding: 0 20px 10px 10px;
+}
+ .container>.sidebar {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.transport {
+    margin: 80px 0;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.news {
+    margin: 80px 0;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.hotels {
+    margin: 80px 0;
+    grid-column: 6/7;
+    grid-row: 2/4;
+}
+.service {
+    margin: 80px 0;
+    grid-column: 8/9;
+    grid-row: 2/4;
+}
