@@ -16,7 +16,7 @@ a{
 header {
     display: flex;
     min-height: 70px;
-    background-color: #284b63;
+    background-color: #77BFA3;
     justify-content: space-between;
     align-items: center;
     padding: 10px;      
@@ -175,7 +175,7 @@ p {
     margin-top: -50px;    
 }
 footer  {
-    background-color: #284b63;
+    background-color: #BFD8BD;
     color: white;
     padding: 25px 50px;
     margin-top: -60px; 

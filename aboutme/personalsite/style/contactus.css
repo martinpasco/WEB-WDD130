@@ -1,11 +1,16 @@
-<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*<style> */
     form {
         /* Center the form on the page */
         margin: 0 auto;
         width: 400px;
         /* Form outline */
         padding: 1em;
-        border: 2px solid rgb(156, 151, 151);
+        border: 2px solid #98C9A3;
         border-radius: 1em;
         }
 
@@ -13,18 +18,18 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        }
+    }
 
-        form li + li {
+    form li + li {
         margin-top: 1em;
-        }
+    }
 
     label {
         /* Uniform size & alignment */
         display: inline-block;
         width: 90px;
         text-align: center;
-        }
+    }
 
     input,
     textarea {
@@ -39,13 +44,13 @@
         /* Match form field borders */
         border: 1px solid #999;
         padding: 8px;
-        }
+    }
 
     input:focus,
     textarea:focus {
         /* Additional highlight for focused elements */
         border-color: #000;
-        }
+    }
 
     textarea {
         /* Align multiline text fields with their labels */
@@ -53,18 +58,20 @@
 
         /* Provide space to type some text */
         height: 5em;
-        }
+    }
 
     .button {
         /* Align buttons with the text fields */
         padding-left: 90px; /* same size as the label elements */
-        }
+        
+    }
 
     button {
         /* This extra margin represent roughly the same space as the space
             between the labels and their text fields */
         margin-left: 0.5em;
-        }
+        background-color: #98C9A3;
+    }
 </style>
 #feedback {
     background-color: antiquewhite;
@@ -87,14 +94,14 @@
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    }
+}
     
-    .fab:hover {
+.fab:hover {
     opacity: 0.7;
-    }
+}
     
-    .fa-whatsapp {
+.fa-whatsapp {
     background: #45bbff;
     color: white;
-    }
+}
            
