@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
     font-family: 'Lato', 'Bradley Hand', sans-serif;
 }
 h5 h2{
@@ -70,7 +71,10 @@ div .position a {
 }
 #hero-msg a{
     color: white;
-    font-size: 1em;
+    font-size: 1em; /* changes */   
+    position: relative;
+    align-content: center;
+    justify-content: center;
 }
 
 .home-title{
@@ -184,6 +188,7 @@ div .button-box{
     margin: 100px 0;
     grid-column: 1/5;
     grid-row: 3/5;
+    display: flex;
     margin-top: -50px;
 }
 .text1 {
