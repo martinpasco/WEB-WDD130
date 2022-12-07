@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.call {
+    text-align: right;
+
+}
 body{
     width: 100%;
     font-family: 'Lato', 'Bradley Hand', sans-serif;
