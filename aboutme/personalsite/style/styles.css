@@ -116,6 +116,14 @@ div .button-box{
     grid-gap: 10px;
     padding: 0 20px 10px 10px;
 }
+#local1 {
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    margin-top: -20px; 
+    grid-gap: 20px;
+    padding: 0 10px 10px 10px;
+}
 .img{
     width: 300px;
     height: 200px;    
@@ -156,6 +164,7 @@ div .button-box{
 .kuelap a {
     color: #98C9A3;
 }
+
 .Internationals1 {
     margin: 100px 0;
     grid-column: 1/2;
@@ -216,14 +225,7 @@ div .button-box{
 .cusco1 a {
     color: #98C9A3;
 }
-#local1 {
-    text-align: center;
-    margin-top: 50px;
-    display: flex;
-    margin-top: -20px; 
-    grid-gap: 20px;
-    padding: 0 10px 10px 10px;
-}
+
 #local {
     margin: 100px 0;
     display: grid;
