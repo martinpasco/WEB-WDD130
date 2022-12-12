@@ -101,11 +101,9 @@ div .button-box{
 #middle {
     text-align: center;
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
     margin-top: -70px; 
-    grid-gap: 10px;
+    grid-gap: 20px;
     padding: 0 20px 10px 10px;
 }
 #card {
@@ -218,6 +216,14 @@ div .button-box{
 .cusco1 a {
     color: #98C9A3;
 }
+#local1 {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    margin-top: -20px; 
+    grid-gap: 20px;
+    padding: 0 20px 10px 10px;
+}
 #local {
     margin: 100px 0;
     display: grid;
@@ -309,7 +315,7 @@ footer  {
         width: 60%;
         grid-template-columns: repeat(1, 1fr);
     }
-    .transport, .news, .hotels, .service, .local {
+    .transport, .news, .hotels, .service, .local, .img1*/ {
         margin: 50px auto;
         width: 60%;
         grid-template-columns: repeat(1, 1fr);
