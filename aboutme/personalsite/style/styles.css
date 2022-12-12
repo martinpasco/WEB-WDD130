@@ -222,7 +222,7 @@ div .button-box{
     display: flex;
     margin-top: -20px; 
     grid-gap: 20px;
-    padding: 0 20px 10px 10px;
+    padding: 0 10px 10px 10px;
 }
 #local {
     margin: 100px 0;
