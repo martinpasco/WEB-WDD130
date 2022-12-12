@@ -1,4 +1,4 @@
-<style>
+
     * {box-sizing: border-box}
     body {font-family: Verdana, sans-serif; margin:0}
     .mySlides {display: none}
@@ -90,4 +90,3 @@
     @media only screen and (max-width: 300px) {
       .prev, .next,.text {font-size: 11px}
     }
-    </style>
