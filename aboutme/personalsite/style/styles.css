@@ -307,6 +307,11 @@ footer  {
         flex-direction: column;
         display: block;
     }
+    #local1 {
+        width: 100%;
+        flex-direction: column;
+        display: block;
+    }
     #article{
         width: 100%;
         flex-direction: column;
