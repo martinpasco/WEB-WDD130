@@ -314,7 +314,7 @@ footer  {
     #article{
         width: 100%;
         flex-direction: column;
-        /*display: block;*/
+        
     }
     .passport, .tickets, .cusco, .kuelap, .Internationals1, .Internationals2, .Internationals3, .Internationals4 /*.local .img1*/ {
         margin: 50px auto;
